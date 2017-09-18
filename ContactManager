@@ -1,0 +1,31 @@
+class Contact():
+	def __init__(self, name, phonenumber, email, website, birthday, linkedIn, picture):
+		self.name = name
+		self.phonenumber = phonenumber
+		self.email = email
+		self.website = website
+		self.birthday = birthday
+		self.linkedIn = linkedIn
+		self.picture = picture
+
+
+
+# print(Contact.name)
+# print(Contact.name)
+
+cname = input("Enter name: ")
+cphonenumber = input("Enter phone number: ")
+cemail = input("Enter email address: ")
+cwebsite = input("Enter website address: ")
+cbirthday = input("Enter birthday: ")
+clinkedIn = input("Enter linkedIn: ")
+cpicture = input("Add picture: ")
+
+new_contact = Contact(cname, cphonenumber, cemail, cwebsite, cbirthday, clinkedIn, cpicture)
+print(new_contact.name)
+print(new_contact.phonenumber)
+print(new_contact.email)
+print(new_contact.website)
+print(new_contact.birthday)
+print(new_contact.linkedIn)
+print(new_contact.picture)
